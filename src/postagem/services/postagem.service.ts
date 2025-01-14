@@ -11,6 +11,6 @@ export class PostagemService {
   ) {}
 
   async findAll(): Promise<Postagem[]> {
-    return this.postagemRepository.find(); //Select all from tb.
+    return this.postagemRepository.find(); //Select * FROM tb all from tb(Repository<Postagem>).
   }
 }
