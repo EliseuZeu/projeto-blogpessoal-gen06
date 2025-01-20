@@ -3,6 +3,9 @@
     "editor.defaultFormatter": null,
     "[typescript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "cSpell.words": [
+      "usuario"
+    ]
   }
   

@@ -1,6 +1,12 @@
 {
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "tabWidth": 2
+  "type": "setting",
+  "settings": {
+    "editor.defaultFormatter": null,
+    "[javascript]": {
+      "editor.defaultFormatter": null
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": null
+    }
+  }
 }
