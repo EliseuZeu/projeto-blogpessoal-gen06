@@ -15,7 +15,7 @@ import { DevService } from './data/services/dev.service';
 @Module({
   imports: [ConfigModule.forRoot(),
 TypeOrmModule.forRootAsync({
-	useClass: DevService,
+	useClass: ProdService,
     imports: [ConfigModule],
 }),
     PostagemModule,
